@@ -54,7 +54,7 @@ const jobTitles = [
     " Data Engineer Junior",
     " Data Analyst Junior",
     "n SAP Certified",
-    " Open-Source Contributor",
+    "n Open-Source Contributor",
     " Blogger"
 ];
 let currentTitleIndex = 0;
