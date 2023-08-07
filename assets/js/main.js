@@ -51,7 +51,7 @@ const sr = ScrollReveal({
 });
 const typewriterElement = document.getElementById("typewriter");
 const jobTitles = [
-    "Data Engineering Enthusiast",
+    "Data Engineer Student",
     "Data Analyst",
     "SAP Certified",
     "Open-Source Contributor",
