@@ -286,6 +286,10 @@ img {
   margin-bottom: var(--mb-2);
 }
 
+.skills__subtitle2 {
+  margin-bottom: var(--mb-3);
+}
+
 .skills__text {
   margin-bottom: var(--mb-4);
 }
