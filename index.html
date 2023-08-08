@@ -10,6 +10,7 @@
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
         <title>Ahmed Mellit</title>
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -73,7 +74,7 @@
                     
                     <div>
                         <h2 class="about__subtitle">About Me</h2>
-                        <p class="about__text">I'm Ahmed Mellit, an enthusiastic last-year M.Eng student with a strong passion for all things data! &#x1F4CA; My academic focus revolves around Digital Information Engineering, delving deep into the realm of Data Engineering, Data Science, and Analytics. My skill set includes adeptly maneuvering through various data manipulation and processing tools, allowing me to effectively transform raw data into valuable insights. My eagerness to unravel the hidden patterns within data drives me to convert complex information into actionable strategies &#x1F50D;. You can download my resume to know more about my experience, education, etc... &#x1F604;</p>
+                        <p class="about__text">I'm Ahmed Mellit, an enthusiastic last-year M.Eng student with a strong passion for all things data! &#x1F4CA; My academic focus revolves around Digital Information Engineering, delving deep into the realm of Data Engineering, Data Science, and Analytics. My skill set includes adeptly maneuvering through various data manipulation and processing tools, allowing me to effectively transform raw data into valuable insights. My eagerness to unravel the hidden patterns within data drives me to convert complex information into actionable strategies &#x1F50D;. You can download my resume to know more about my experience, education etc... &#x1F604;</p>
                         <br>
                         <a class="button" href="MyResume.pdf" download>Download my CV</a>
                     </div>                                   
@@ -253,12 +254,12 @@
                 <h2 class="section-title">Contact Me</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" placeholder="Type your message..." id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Send" class="contact__button button">
-                    </form>
+                    <form id="contact-form" class="contact__form">
+                        <input type="text" id="name" placeholder="Name" class="contact__input">
+                        <input type="email" id="email" placeholder="Email" class="contact__input">
+                        <textarea id="message" placeholder="Type your message..." cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="submit" value="Send" class="contact__button button">
+                    </form>                    
                 </div>
             </section>
         </main>
@@ -283,5 +284,6 @@
 
         <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
+       
     </body>
 </html>
