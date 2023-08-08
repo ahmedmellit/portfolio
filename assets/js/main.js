@@ -80,7 +80,30 @@ function eraseJobTitle() {
     setTimeout(typeJobTitle, 500); // Delay before typing next title (milliseconds)
     }
 }
-          
+
+(function() {
+    emailjs.init("user_your_emailjs_user_id"); // Replace with your Email.js user ID
+
+    document.getElementById("contact-form").addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        // Replace with your Email.js template ID
+        var templateParams = {
+            to_email: "ahmed.mellit@esi.ac.ma", // Your email address
+            from_name: document.getElementById("name").value,
+            from_email: document.getElementById("email").value,
+            message: document.getElementById("message").value
+        };
+
+        emailjs.send("service_your_service_id", "template_your_template_id", templateParams)
+            .then(function(response) {
+                alert("Email sent successfully!");
+            }, function(error) {
+                alert("Error sending email. Please try again later.");
+            });
+    });
+})();
+
 typeJobTitle(); // Start the looped typing animation
 
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
