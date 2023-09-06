@@ -53,7 +53,6 @@ const typewriterElement = document.getElementById("typewriter");
 const jobTitles = [
     " Data Engineer Student",
     " Data Analyst",
-    "n SAP Certified",
     "n Open-Source Contributor",
     " Blogger"
 ];
