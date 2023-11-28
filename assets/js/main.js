@@ -51,10 +51,11 @@ const sr = ScrollReveal({
 });
 const typewriterElement = document.getElementById("typewriter");
 const jobTitles = [
-    " Data Engineer Student",
+    " Data Scientist",
     " Data Analyst",
-    "n Open-Source Contributor",
-    " Blogger"
+    " AI Developer",
+    " Blogger",
+    " AWS certified"
 ];
 let currentTitleIndex = 0;
 let index = 0;
