@@ -53,9 +53,8 @@ const typewriterElement = document.getElementById("typewriter");
 const jobTitles = [
     " Data Scientist",
     " Data Analyst",
-    " AI Developer",
+    "n AI Developer",
     " Blogger",
-    " AWS certified"
 ];
 let currentTitleIndex = 0;
 let index = 0;
